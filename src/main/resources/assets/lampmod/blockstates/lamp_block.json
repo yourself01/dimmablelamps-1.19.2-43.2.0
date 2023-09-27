@@ -1,0 +1,21 @@
+{
+  "variants": {
+    "lit=0": { "model": "lampmod:block/lamp_block_0" },
+    "lit=1": { "model": "lampmod:block/lamp_block_1" },
+    "lit=2": { "model": "lampmod:block/lamp_block_2" },
+    "lit=3": { "model": "lampmod:block/lamp_block_3" },
+    "lit=4": { "model": "lampmod:block/lamp_block_4" },
+    "lit=5": { "model": "lampmod:block/lamp_block_5" },
+    "lit=6": { "model": "lampmod:block/lamp_block_6" },
+    "lit=7": { "model": "lampmod:block/lamp_block_7" },
+    "lit=8": { "model": "lampmod:block/lamp_block_8" },
+    "lit=9": { "model": "lampmod:block/lamp_block_9" },
+    "lit=10": { "model": "lampmod:block/lamp_block_10" },
+    "lit=11": { "model": "lampmod:block/lamp_block_11" },
+    "lit=12": { "model": "lampmod:block/lamp_block_12" },
+    "lit=13": { "model": "lampmod:block/lamp_block_13" },
+    "lit=14": { "model": "lampmod:block/lamp_block_14" },
+    "lit=15": { "model": "lampmod:block/lamp_block_15" }
+
+  }
+}
