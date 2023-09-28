@@ -7,7 +7,7 @@ public class ModCreativeModeTab {
     public static final CreativeModeTab LAMP_TAB = new CreativeModeTab("lamptab") {
         @Override
         public ItemStack makeIcon() {
-            return new ItemStack(ModItems.TEST.get());
+            return new ItemStack(ModItems.WRENCH.get());
         }
     };
 }
