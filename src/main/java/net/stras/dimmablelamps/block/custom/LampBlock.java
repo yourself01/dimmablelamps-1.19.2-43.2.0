@@ -3,22 +3,19 @@ package net.stras.lampmod.block.custom;
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.InteractionResult;
-import net.minecraft.world.entity.ItemSteerable;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.Items;
 import net.minecraft.world.item.context.BlockPlaceContext;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
 import net.minecraft.world.level.block.state.properties.IntegerProperty;
 import net.minecraft.world.phys.BlockHitResult;
-import net.minecraftforge.common.Tags;
-import net.stras.lampmod.LampMod;
-import net.stras.lampmod.item.ModItems;
+import net.stras.dimmablelamps.item.ModItems;
+
+import javax.annotation.Nullable;
 
 public class LampBlock extends Block {
 
@@ -43,10 +40,10 @@ public class LampBlock extends Block {
             }
         }
     }
-
-//    public BlockState getStateForPlacement(BlockPlaceContext context) {
-//        return this.defaultBlockState().setValue(LIT, int.valueOf(context.getLevel().hasNeighborSignal(context.getClickedPos())));
-//    }
+    @Nullable
+    public BlockState getStateForPlacement(BlockPlaceContext context) {
+        return this.defaultBlockState().setValue(LIT, context.getLevel().getBestNeighborSignal(context.getClickedPos()));
+    }
 
     @Override
     public InteractionResult use(BlockState state, Level level, BlockPos pos,
