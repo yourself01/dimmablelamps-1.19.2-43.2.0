@@ -2,7 +2,7 @@ package net.stras.dimmablelamps.item;
 
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
-import net.stras.lampmod.block.ModBlocks;
+import net.stras.dimmablelamps.block.ModBlocks;
 
 public class ModCreativeModeTab {
     public static final CreativeModeTab DIMMABLE_LAMPS = new CreativeModeTab("dimmablelamps") {

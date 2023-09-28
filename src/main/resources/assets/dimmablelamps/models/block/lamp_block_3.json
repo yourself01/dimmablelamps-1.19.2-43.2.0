@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/cube_all",
   "textures": {
-    "all": "lampmod:block/lamp_block_6"
+    "all": "dimmablelamps:block/lamp_block_3"
   }
 }

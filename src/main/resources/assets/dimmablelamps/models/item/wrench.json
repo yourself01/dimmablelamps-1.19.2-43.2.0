@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "lampmod:item/wrench"
+    "layer0": "dimmablelamps:item/wrench"
   }
 }

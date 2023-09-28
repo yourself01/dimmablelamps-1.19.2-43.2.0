@@ -1,4 +1,4 @@
-package net.stras.lampmod.block.custom;
+package net.stras.dimmablelamps.block.custom;
 
 import net.minecraft.core.BlockPos;
 import net.minecraft.world.InteractionHand;

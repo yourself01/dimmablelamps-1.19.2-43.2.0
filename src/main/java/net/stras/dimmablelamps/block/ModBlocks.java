@@ -1,4 +1,4 @@
-package net.stras.lampmod.block;
+package net.stras.dimmablelamps.block;
 
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.CreativeModeTab;
@@ -11,7 +11,7 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import net.stras.dimmablelamps.DimmableLamps;
-import net.stras.lampmod.block.custom.LampBlock;
+import net.stras.dimmablelamps.block.custom.LampBlock;
 import net.stras.dimmablelamps.item.ModCreativeModeTab;
 import net.stras.dimmablelamps.item.ModItems;
 

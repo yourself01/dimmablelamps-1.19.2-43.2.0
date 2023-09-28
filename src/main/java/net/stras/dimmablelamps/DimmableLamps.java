@@ -10,7 +10,7 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import net.stras.dimmablelamps.item.ModItems;
-import net.stras.lampmod.block.ModBlocks;
+import net.stras.dimmablelamps.block.ModBlocks;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
@@ -18,7 +18,7 @@ import org.slf4j.Logger;
 public class DimmableLamps
 {
     // Define mod id in a common place for everything to reference
-    public static final String MOD_ID = "lampmod";
+    public static final String MOD_ID = "dimmablelamps";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
     public DimmableLamps()
