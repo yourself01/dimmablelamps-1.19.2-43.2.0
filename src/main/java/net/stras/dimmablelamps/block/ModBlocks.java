@@ -22,8 +22,8 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, DimmableLamps.MOD_ID);
 
     public static final RegistryObject<Block> LAMP_BLOCK = registerBlock("lamp_block",
-            () -> new LampBlock(BlockBehaviour.Properties.of(Material.METAL)
-                    .strength(6f).requiresCorrectToolForDrops().lightLevel(state -> state.getValue(LampBlock.LIT))), ModCreativeModeTab.DIMMABLE_LAMPS);
+            () -> new LampBlock(BlockBehaviour.Properties.of(Material.GLASS)
+                    .strength(1f).requiresCorrectToolForDrops().lightLevel(state -> state.getValue(LampBlock.LIT))), ModCreativeModeTab.DIMMABLE_LAMPS);
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab){
